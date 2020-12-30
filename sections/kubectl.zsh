@@ -38,6 +38,6 @@ spaceship_kubectl() {
   spaceship::section \
     "$SPACESHIP_KUBECTL_COLOR" \
     "$SPACESHIP_KUBECTL_PREFIX" \
-    "${SPACESHIP_KUBECTL_SYMBOL}${kubectl_version}${kubectl_context}" \
+    "${SPACESHIP_KUBECTL_SYMBOL}${kubectl_context}" \
     "$SPACESHIP_KUBECTL_SUFFIX"
 }
